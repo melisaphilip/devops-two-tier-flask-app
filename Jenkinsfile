@@ -5,7 +5,7 @@ pipeline {
             steps {
                 // Replace with your GitHub repository URL
                 git branch: 'main', 
-                    url: 'https://github.com/melisaphilip/DevOps-Project-1.git', credentialsId: 'github-pat',
+                    url: 'https://github.com/melisaphilip/DevOps-Project-1.git',
                     credentialsId: '11abf717-25fd-4996-a6ea-e31f37553f8c'
             }
         }
